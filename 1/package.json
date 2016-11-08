@@ -1,0 +1,29 @@
+{
+  "name": "product_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "view": "gulp view",
+    "js": "gulp script",
+    "css": "gulp css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "browser-sync": "^2.17.5",
+    "connect-logger": "^0.0.1",
+    "debug": "^2.2.0",
+    "google-closure-compiler-js": "^20161024.0.0",
+    "gulp": "^3.9.1",
+    "gulp-html-prettify": "^0.0.1",
+    "gulp-pug": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "moment": "^2.15.2",
+    "postcss-cssnext": "^2.8.0",
+    "stream-combiner2": "^1.1.1"
+  },
+  "dependencies": {}
+}

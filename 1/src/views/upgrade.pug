@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet" href="../../bower_components/normalize-css/normalize.css")
+    style.
+      dl,dt,dd,ul,li{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+      a{
+          text-decoration: none;
+      }
+      html{
+        height: 100%;
+      }
+      body{
+        height: 100%;
+        font-size: 12px;
+        font-family: "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+      }
+      .non-chrome{
+        width: 100%;
+        height: 100%;
+        background-color: #4D8E9E;
+      }
+      .non-chrome__content{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 1000px;
+        height: 400px;
+      }
+      .lmask,.rmask{
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        background-color: #4D8E9E;
+        _background-color: #fff;
+      }
+      .rmask{
+        left: 510px;
+      }
+      .non-chrome__text{
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        position: absolute;
+        left: 400px;
+        top: 100px;
+        width: 600px;
+        font-size: 18px;
+        color: #FE7027;
+        font-weight: bold;
+      }
+      .non-chrome__preference{
+        display:  inline-block;
+        *display:  inline;
+        *zoom:  1;
+        margin: 50px 90px 0;
+        text-align: center;
+        line-height: 2.5;
+        font-size: 0.7em;
+      }
+      .non-chrome__preference a{
+        font-weight: normal;
+        color: #fff;
+      }
+      .non-chrome__preference-img{
+        display: block;
+      }
+  body
+    #non-chrome.non-chrome
+      .non-chrome__content
+        .lmask
+        .rmask
+        img(src="../../assets/rocket.gif")
+        .non-chrome__text 
+          |温馨提示：您当前的浏览器版本过低，存在安全风险，建议升级浏览器！
+          ul
+            li.non-chrome__preference
+              a(href="")
+                img.non-chrome__preference-img(src="../../assets/Chrome-Logo.png" width="80" height="80")
+                |谷歌浏览器
+            li.non-chrome__preference
+              a(href="")
+                img.non-chrome__preference-img(src="../../assets/chrome_frame.png" width="95" height="95")
+                |Chrome Frame
+

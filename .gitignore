@@ -1,0 +1,13 @@
+# Dependencies #
+################
+**/node_modules/
+**/bower_components/
+
+# Compiled Source #
+###################
+**/bin/
+**/dist/
+
+# Temporary Files #
+###################
+*.swap

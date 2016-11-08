@@ -1,0 +1,18 @@
+{
+  "name": "product_site",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "move": "https://github.com/visionmedia/move.js"
+  }
+}
