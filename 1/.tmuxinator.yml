@@ -1,0 +1,12 @@
+name: 1
+root: .
+
+windows:
+  - editor: vim .
+  - stats:
+      layout: even-horizontal
+      panes:
+        - npm run view
+        - npm run js
+        - npm run css
+  - server: npm run dev
