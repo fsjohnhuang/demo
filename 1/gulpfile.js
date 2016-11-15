@@ -14,7 +14,7 @@ gulp.task('view', function(){
           gulp.src('src/views/*.pug')
           , pug()
           , gulp.dest('dist/views/')
-      ])    
+      ])
       combined.on('error', console.error.bind(console))
   })
 })

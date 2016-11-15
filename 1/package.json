@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server",
-    "view": "gulp view",
-    "js": "gulp script",
-    "css": "gulp css"
+    "server": "lite-server",
+    "watch:html": "gulp view",
+    "watch:js": "gulp script",
+    "watch:css": "gulp css"
   },
   "author": "",
   "license": "ISC",
