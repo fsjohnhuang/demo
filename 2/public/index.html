@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <fieldset>
+      <label>
+	Direction:
+	<select id="direction">
+	  <option value="end">end</option>
+	  <option value="start">start</option>
+	</select>
+      </label>
+      <label for="">
+	Duration:
+	<input id="duration" type="number" value="6"/>
+      </label>
+      <button class="play">Play</button>
+      <label>Animation Status:
+	<b id="msg">Not Start</b>
+      </label>
+      <label>Time Line:
+	<b id="time_line">0</b>s
+      </label>
+    </fieldset>
+    <br>
+    
+    <div class="ball big">
+      <span class="indicator"></span>
+    </div>
+    
+    <h2>Sequence of Animation</h2>
+    <div class="ball" style="float:left">
+      <span class="indicator"></span>
+    </div>
+    <div class="ball" style="float:left;transform:rotate(90deg)">
+      <span class="indicator"></span>
+    </div>
+    <div class="ball" style="float:left;transform:rotate(180deg)">
+      <span class="indicator"></span>
+    </div>
+    <div class="ball" style="float:left;transform:rotate(270deg)">
+      <span class="indicator"></span>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>

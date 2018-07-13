@@ -1,0 +1,31 @@
+@keyframes rotate {
+    0% {
+	transform: rotate(0deg);
+    }
+    100% {
+	transform: rotate(270deg);
+    }
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 1px tomato;
+  position: relative;
+  text-align: center;
+}
+.ball.big{
+  width: 300px;
+  height: 300px;
+}
+.indicator {
+  display: inline-block;
+  border-bottom: solid 50px #888;
+  border-left: solid 5px transparent;
+  border-right: solid 5px transparent;
+}
+
+.big .indicator {
+  border-bottom: solid 150px #888;
+}

@@ -1,4 +1,5 @@
 'use strict'
+
 function curry(fn , ...args){
   var len = fn.length
 
